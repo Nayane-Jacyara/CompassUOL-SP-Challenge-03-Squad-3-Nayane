@@ -2,6 +2,7 @@ package br.com.compassuol.pb.challenge.msproducts.service;
 
 import br.com.compassuol.pb.challenge.msproducts.entity.Product;
 import br.com.compassuol.pb.challenge.msproducts.repository.ProductRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -16,6 +17,7 @@ public class ProductService {
 
     private final ProductRepository productRepository;
 
+    @Autowired
     public ProductService(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
@@ -28,10 +30,6 @@ public class ProductService {
 
         if (product.getPrice() == null || product.getPrice().compareTo(BigDecimal.ZERO) <= 0) {
             throw new IllegalArgumentException("O preço do produto deve ser maior que zero.");
-        }
-
-        if (product.getCategory() == null) {
-            throw new IllegalArgumentException("A categoria do produto é obrigatória.");
         }
 
         return productRepository.save(product);
@@ -73,20 +71,20 @@ public class ProductService {
         return productPage;
     }
 
-    public Product updateProduct(Long id, Product product) {
+    public Product updateProduct(Long id, Product updatedProduct) {
         // Verificar se o produto existe
         Product existingProduct = getProductById(id);
 
         // Atualizar os atributos do produto existente com os valores do novo produto
-        existingProduct.setName(product.getName());
-        existingProduct.setDescription(product.getDescription());
-        existingProduct.setImgUrl(product.getImgUrl());
-        existingProduct.setPrice(product.getPrice());
-        existingProduct.setCategory(product.getCategory());
+        existingProduct.setName(updatedProduct.getName());
+        existingProduct.setDescription(updatedProduct.getDescription());
+        existingProduct.setImgUrl(updatedProduct.getImgUrl());
+        existingProduct.setPrice(updatedProduct.getPrice());
 
         // Salvar o produto atualizado no banco de dados
         return productRepository.save(existingProduct);
     }
+
 
     public void deleteProduct(Long id) {
         Product product = getProductById(id);

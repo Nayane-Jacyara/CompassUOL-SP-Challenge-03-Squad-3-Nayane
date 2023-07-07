@@ -4,34 +4,24 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "tb_product")
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Long id;
 
-    @Column(name = "date")
     private LocalDateTime date;
 
-    @Column(name = "description")
     private String description;
 
-    @Column(name = "name")
     private String name;
 
-    @Column(name = "imgUrl")
     private String imgUrl;
 
-    @Column(name = "price")
     private BigDecimal price;
-
-    @ManyToOne
-    @JoinColumn(name = "category_id")
-    private Category category;
 
     @ManyToMany
     @JoinTable(
@@ -39,27 +29,8 @@ public class Product {
             joinColumns = @JoinColumn(name = "product_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id")
     )
-    private List<ProductCategory> productCategories;
+    private Set<Category> categories = new HashSet<>();
 
-    public Product() {
-
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public LocalDateTime getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDateTime date) {
-        this.date = date;
-    }
 
     public String getDescription() {
         return description;
@@ -93,19 +64,11 @@ public class Product {
         this.price = price;
     }
 
-    public Category getCategory() {
-        return category;
+    public Set<Category> getCategories() {
+        return categories;
     }
 
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
-    public List<ProductCategory> getProductCategories() {
-        return productCategories;
-    }
-
-    public void setProductCategories(List<ProductCategory> productCategories) {
-        this.productCategories = productCategories;
+    public void setCategories(Set<Category> categories) {
+        this.categories = categories;
     }
 }
