@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3488e3f-15b6-4fe9-9328-20e0fbce8d11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-products/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/controller/ProductController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SGm02GobHk6y54z0jdvWeui7Ae" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "developer",
+    "last_opened_file_path": "C:/Users/Jacyara/workspace/CompassUOL-SP-Challenge-03-Squad-3-Nayane/ms-user",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "0a442ae43c7042660cb61caf6dc6f7b9",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacyara\workspace\CompassUOL-SP-Challenge-03-Squad-3-Nayane\ms-user\ms-user" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsUserApplication">
+    <configuration name="MsUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.compassuol.pb.challenge.msuser.MsUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-user: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="ms-user/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-user.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ms-user/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.ms-user.db: Compose Deployment" />
+        <item itemvalue="Docker.ms-user: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3488e3f-15b6-4fe9-9328-20e0fbce8d11" name="Changes" comment="" />
+      <created>1688781066859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688781066859</updated>
+      <workItem from="1688781069706" duration="2789000" />
+      <workItem from="1688784352765" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
