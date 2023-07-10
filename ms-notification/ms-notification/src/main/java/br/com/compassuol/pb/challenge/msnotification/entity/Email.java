@@ -7,6 +7,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 @Entity
@@ -17,7 +18,8 @@ public class Email implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long emailId;
+
+    private UUID emailId;
     private  String ownerRef;//referencia do propietario que estar mandado sm msg,
     // vai rwe repassando o id d=paar quem vai ser usando esse email
     private  String emailFrom;// quem estar mandado
