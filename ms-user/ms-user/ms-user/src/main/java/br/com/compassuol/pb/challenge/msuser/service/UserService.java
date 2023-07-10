@@ -3,6 +3,7 @@ package br.com.compassuol.pb.challenge.msuser.service;
 import br.com.compassuol.pb.challenge.msuser.entity.User;
 import br.com.compassuol.pb.challenge.msuser.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,6 +14,9 @@ import java.util.Optional;
 public class UserService {
 
     private final UserRepository userRepository;
+    private BCryptPasswordEncoder passwordEncoder(){
+       return new BCryptPasswordEncoder();
+    }
 
     @Autowired
     public UserService(UserRepository userRepository) {
@@ -20,6 +24,8 @@ public class UserService {
     }
 
     public User createUser(User user) {
+
+        user.setPassword(passwordEncoder().encode(user.getPassword()));
 
         User createdUser = userRepository.save(user);
 
