@@ -1,3 +1,21 @@
 
 G
 ms-notification/pom.xml,c\c\ccc2462935eddcae9c7b6126a0bfba09e0d76040
+õ
+kms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/repository/EmailRepository.java,0\7\07d36a3fde62b7705144e35e99334c67d5d0e5e5
+ö
+jms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/MsNotificationApplication.java,0\c\0c40c32a95134099b68c1b657a2edf8b497c03f5
+í
+bms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/enums/StatusEmail.java,9\e\9e00ed635f5beb0b5146a9ab7c8021204946a722
+ñ
+fms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/configs/RabbiMQConfig.java,9\6\96e7621bf1965397ab45e6f21c164d6faa84409f
+ç
+]ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/entity/Email.java,c\7\c78bcb6d9ab10dd03d9d3797b2fcd2c876bae369
+õ
+kms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/controller/EmailController.java,4\8\48004323527f866b5b1803e332801dd4465f8960
+ï
+ems-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/service/EmailService.java,9\8\98fe33d2df82242995e23f6ff194b135583b5931
+é
+^ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/dtos/EmailDTO.java,a\a\aaf96093159495a328d6c3f4f4b0fb652fc25318
+ò
+hms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/consumers/EmailComsumer.java,4\2\42775260f33c393b79fdf14fa0eb554b8f05c83d

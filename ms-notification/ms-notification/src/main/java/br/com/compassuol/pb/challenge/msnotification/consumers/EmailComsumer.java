@@ -23,3 +23,5 @@ public class EmailComsumer {
         System.out.println("Email Status:" + email.getStatusEmail().toString());
     }
 }
+
+
