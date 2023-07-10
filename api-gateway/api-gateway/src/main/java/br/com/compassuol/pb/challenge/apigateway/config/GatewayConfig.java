@@ -21,7 +21,7 @@ public class GatewayConfig {
                         .path("/oauth")
                         .uri("http://localhost:8284/)"))
                 .route("email", r -> r
-                        .path("/emails")
+                        .path("/sending-email")
                         .uri("http://localhost:8385/)"))
                 .route("products", r -> r
                         .path("/products/**")
