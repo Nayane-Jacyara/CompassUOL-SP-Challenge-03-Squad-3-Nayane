@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da16c188-55ab-4cd6-ac85-96e3f611c4a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database tables/creating data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database tables/creating data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database tables/creation of tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database tables/creation of tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/.idea/ms-notification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/.idea/ms-notification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/consumers/EmailComsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/consumers/EmailComsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/dtos/EmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/dtos/EmailDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/entity/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/entity/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/repository/EmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/repository/EmailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/b/d/bd3dae36dc43c383a1d77c58e9f25dd9f334f37f" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/b/d/bd3dae36dc43c383a1d77c58e9f25dd9f334f37f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/d/c/dc9732f75215feaccf4d11678e4a9f85effc9429" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/d/c/dc9732f75215feaccf4d11678e4a9f85effc9429" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SMkZQbvVv5fQNa3KtgvEZCVhVc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "developer",
+    "last_opened_file_path": "C:/Users/Jacyara/workspace/CompassUOL-SP-Challenge-03-Squad-3-Nayane/api-gateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da16c188-55ab-4cd6-ac85-96e3f611c4a4" name="Changes" comment="" />
+      <created>1688963892926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688963892926</updated>
+      <workItem from="1688963894464" duration="471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
