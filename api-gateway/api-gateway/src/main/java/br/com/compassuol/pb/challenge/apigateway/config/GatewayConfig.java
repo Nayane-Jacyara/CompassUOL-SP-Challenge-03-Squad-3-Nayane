@@ -16,17 +16,17 @@ public class GatewayConfig {
                         .uri("http://localhost:8082/)"))
                 .route("products", r -> r
                         .path("/products")
-                        .uri("http://localhost:8083/)"))
+                        .uri("http://localhost:8183/)"))
                 .route("oauth", r -> r
                         .path("/oauth")
-                        .uri("http://localhost:8084/)"))
+                        .uri("http://localhost:8284/)"))
                 .route("email", r -> r
-                        .path("/sending-email")
-                        .uri("http://localhost:8085/)"))
+                        .path("/emails")
+                        .uri("http://localhost:8385/)"))
                 .route("products", r -> r
                         .path("/products/**")
                         .filters(f -> f.rewritePath("/products/(?<params>.*)", "/?page=1&linesPerPage=5&direction=DESC&orderBy=name"))
-                        .uri("http://localhost:8083/"))
+                        .uri("http://localhost:8183/"))
 
                 .build();
     }

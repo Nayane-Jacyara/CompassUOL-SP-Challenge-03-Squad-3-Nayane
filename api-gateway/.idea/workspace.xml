@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da16c188-55ab-4cd6-ac85-96e3f611c4a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ms-authorization/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-authorization/.idea/ms-authorization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-user/.idea/ms-user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-user/ms-user/.idea/ms-user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database tables/creating data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database tables/creating data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database tables/creation of tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../database tables/creation of tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/.idea/ms-notification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/.idea/ms-notification.iml" afterDir="false" />
@@ -16,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/controller/EmailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/dtos/EmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/dtos/EmailDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/entity/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/entity/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/enums/StatusEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/enums/StatusEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/repository/EmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/repository/EmailRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/java/br/com/compassuol/pb/challenge/msnotification/service/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-notification/ms-notification/src/main/resources/application.properties" afterDir="false" />
@@ -28,19 +36,39 @@
       <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/entity/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-products/ms-products/src/main/java/br/com/compassuol/pb/challenge/msproducts/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/MsUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/java/br/com/compassuol/pb/challenge/msuser/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-user/ms-user/src/test/java/br/com/compassuol/pb/challenge/msuser/MsUserApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,7 +84,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "developer",
     "last_opened_file_path": "C:/Users/Jacyara/workspace/CompassUOL-SP-Challenge-03-Squad-3-Nayane/api-gateway",
@@ -64,9 +98,19 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1d09875f95bc061844e3b968e1b55e67",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.compassuol.pb.challenge.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688963892926</updated>
       <workItem from="1688963894464" duration="471000" />
+      <workItem from="1688969918425" duration="3371000" />
+      <workItem from="1688999456734" duration="1708000" />
     </task>
     <servers />
   </component>
