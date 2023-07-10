@@ -12,6 +12,8 @@ public class Category {
     @Column(name = "name", nullable = false)
     private String name;
 
+    public Category() {
+    }
 
     public Long getId() {
         return id;

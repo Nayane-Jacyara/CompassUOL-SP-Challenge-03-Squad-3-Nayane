@@ -88,4 +88,7 @@ public class Product {
     public void setCategories(Set<Category> categories) {
         this.categories = categories;
     }
+
+    public void setId(Long productId) {
+    }
 }

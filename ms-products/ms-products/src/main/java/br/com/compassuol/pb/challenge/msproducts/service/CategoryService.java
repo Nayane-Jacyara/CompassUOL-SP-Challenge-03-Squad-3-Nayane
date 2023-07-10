@@ -20,7 +20,6 @@ public class CategoryService {
     }
 
     public Category createCategory(Category category) {
-        // Verificar se o nome da categoria é válido
         if (category.getName() == null || category.getName().isEmpty()) {
             throw new IllegalArgumentException("O nome da categoria é obrigatório.");
         }
@@ -29,15 +28,12 @@ public class CategoryService {
     }
 
     public Category getCategoryById(Long id) {
-        // Verificar se o ID é válido
         if (id == null) {
             throw new IllegalArgumentException("ID da categoria não pode ser nulo.");
         }
 
-        // Obter a categoria pelo ID usando o repositório
         Optional<Category> categoryOptional = categoryRepository.findById(id);
 
-        // Verificar se a categoria existe
         if (categoryOptional.isEmpty()) {
             throw new NoSuchElementException("Categoria não encontrada para o ID: " + id);
         }
@@ -46,18 +42,14 @@ public class CategoryService {
     }
 
     public List<Category> getAllCategories() {
-        // Obter todas as categorias usando o repositório
         return categoryRepository.findAll();
     }
 
     public Category updateCategory(Long id, Category updatedCategory) {
-        // Verificar se a categoria existe
         Category existingCategory = getCategoryById(id);
 
-        // Atualizar os atributos da categoria existente com os valores da nova categoria
         existingCategory.setName(updatedCategory.getName());
 
-        // Salvar a categoria atualizada no banco de dados
         return categoryRepository.save(existingCategory);
     }
 
