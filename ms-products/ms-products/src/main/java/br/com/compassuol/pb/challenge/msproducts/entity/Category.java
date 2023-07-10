@@ -6,9 +6,12 @@ import jakarta.persistence.*;
 @Table(name = "tb_category")
 public class Category {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "name", nullable = false)
     private String name;
+
 
     public Long getId() {
         return id;
