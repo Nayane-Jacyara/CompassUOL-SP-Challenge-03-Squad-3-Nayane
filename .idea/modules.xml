@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CompassUOL-SP-Challenge-03-Squad-3-Nayane.iml" filepath="$PROJECT_DIR$/.idea/CompassUOL-SP-Challenge-03-Squad-3-Nayane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-products/ms-products/ms-products.iml" filepath="$PROJECT_DIR$/ms-products/ms-products/ms-products.iml" />
     </modules>
   </component>
 </project>
